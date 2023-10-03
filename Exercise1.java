@@ -6,6 +6,8 @@ public class Exercise1 {
 
         System.out.println(isLeapYear(1998));
         System.out.println(isLeapYear(1996));
+        System.out.println(isLeapYear(1800));
+        System.out.println(isLeapYear(1600));
 
     }
 
@@ -28,6 +30,6 @@ public class Exercise1 {
             System.out.println("the year " + year + " is not a leap year");
             return false;
         }
-        
+
     }
 }
